@@ -281,12 +281,18 @@ section{
 	grid-template-columns: repeat(5, 1fr);
 	grid-gap:2vw; 
 	padding: 10px 5px;
-}
-
+}	
 
 .product-container{
 	border: 1px solid;
 	padding: 5px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.product-container:hover{
+	
+	box-shadow: 0px 0px 6px -1px;
 }
 
 .product-image{
